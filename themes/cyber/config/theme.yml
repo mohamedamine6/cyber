@@ -1,5 +1,0 @@
-name: cyber
-display_name: "cyber theme"
-parent: classic
-assets:
-  use_parent_assets: true
