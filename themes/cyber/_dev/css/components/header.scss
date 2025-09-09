@@ -6,8 +6,8 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
 
   .logo {
-    max-width: 100%;
-    height: auto;
+    width: 65.4px;
+    height: 22.87px;
   }
 
   #_desktop_logo {
@@ -151,17 +151,24 @@
     padding: 1.25rem 0;
 
     >.container {
-      position: relative;
+      width: calc(100% - 320px);
+      margin: 0 auto;
 
       >.row:first-of-type {
+        width: 1440px;
+        min-height: 88px;
+        padding: 0 160px 16px 160px;
+        background-color: #ffffff;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
       }
 
       .header-top-right {
         display: flex;
         gap: 1rem;
-        align-items: center;
+        justify-content: space-between;
       }
 
       /* Favoris */

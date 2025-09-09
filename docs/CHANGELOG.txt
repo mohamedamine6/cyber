@@ -437,7 +437,7 @@ Changelog for PrestaShop 8
     - #33011: Nightly : Fixed mocha loader (8.1.x) (by @Progi1984)
     - #33012: Nightly : Fixed mocha loader (8.0.x) (by @Progi1984)
     - #32849: Nightly : Fixed functional/BO/04*/01*/08* (by @Progi1984)
-    - #32835: Nightly : 8.1.x : Fixed error in package.json (by @Progi1984)
+    - #32835: Nightly : 8.1.x : Fixed error in  (by @Progi1984)
     - #32834: Nightly : 8.0.x : Fixed error in package.json (by @Progi1984)
     - #32829: Nightly : Fixed functional/BO/02*/01*/viewAndEditOrder/11* (by @Progi1984)
     - #32706: Nightly : Fixed check of shipping price (by @Progi1984)

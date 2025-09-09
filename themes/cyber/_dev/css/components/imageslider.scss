@@ -6,11 +6,13 @@
   }
 
   .carousel-inner {
-    height: 340px;
+    height: 632px;
   }
 
   .carousel-item {
-    height: 100%;
+  height: auto;
+  display:flex;
+  justify-content: end;
 
     img {
       width: 100%;
@@ -26,15 +28,33 @@
       color: $white;
 
       .caption-description {
-        p {
-          font-size: 1rem;
-          color: $white;
-        }
+        width: 714px;
 
         h3 {
-          font-size: 1.25rem;
-          font-weight: 600;
+          font-size: 25px;
+          color: #7A777C;
         }
+
+        h2 {
+          font-size: 96px;
+          font-weight: 100;
+          color: #FFFFFF;
+        }
+
+        p {
+          font-size: 18px;
+          color: #909090;
+        }
+
+        button {
+          width: 191px;
+          height: 56px;
+          font-size: 16px;
+          color: white;
+          background: black;
+          border: 1px solid white;
+        }
+        
       }
 
       .display-1 {
